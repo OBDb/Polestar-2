@@ -1,2 +1,2 @@
-# Model make
+# Polestar 2
 
