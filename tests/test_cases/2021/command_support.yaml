@@ -1,6 +1,4 @@
 model_year: 2021
-can_id_format: ELEVEN_BIT
-extended_addressing_enabled: false
 supported_commands_by_ecu:
   DB33:
   - 010D:VSS
