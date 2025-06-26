@@ -1,6 +1,6 @@
 model_year: 2021
 supported_commands_by_ecu:
-  DB33:
+  "DB33":
   - 010D:VSS
   - 011C:OBDSUP
   - 0142:VPWR
