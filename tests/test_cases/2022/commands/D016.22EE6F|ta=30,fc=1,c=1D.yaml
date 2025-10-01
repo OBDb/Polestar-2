@@ -1,0 +1,5 @@
+command_id: D016.22EE6F|ta=30,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_APP_POS: 0.78431
+  response: 1EC60E800562EE6F02BB
