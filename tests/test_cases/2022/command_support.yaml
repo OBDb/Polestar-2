@@ -1,5 +1,7 @@
 model_year: 2022
 supported_commands_by_ecu:
+  "D016":
+  - D016.22EE6F|ta=30,fc=1,c=1D:POLESTAR2_APP_POS
   "DB33":
   - 010D:VSS
   - 011C:OBDSUP
@@ -11,9 +13,8 @@ supported_commands_by_ecu:
   - 015B:BAT_SOC
   - DB33.010D:VSS
   - DB33.0142:VPWR
+  - DB33.0146:AAT
   - DB33.015B:BAT_SOC
 unsupported_commands_by_ecu:
-  "D016":
-  - D016.22EE6F|ta=30,fc=1,c=1D:POLESTAR2_APP_POS
   "D01A":
   - D01A.224028|ta=01,fc=1,c=1D:POLESTAR2_SOC
