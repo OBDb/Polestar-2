@@ -1,9 +1,9 @@
 { "commands": [
-{ "hdr": "D016", "pri": "1D", "tst": "30", "fcm1": true, "cmd": {"22": "EE6F"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023], "from": 2025 },
+{ "hdr": "D016", "pri": "1D", "tst": "30", "fcm1": true, "cmd": {"22": "EE6F"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
   "signals": [
     {"id": "POLESTAR2_APP_POS", "path": "Control.Pedals", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
-{ "hdr": "D01A", "pri": "1D", "tst": "01", "fcm1": true, "cmd": {"22": "4028"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2023 },
+{ "hdr": "D01A", "pri": "1D", "tst": "01", "fcm1": true, "dbg": true, "cmd": {"22": "4028"}, "freq": 1,
   "signals": [
     {"id": "POLESTAR2_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "State of charge"}
   ]}
