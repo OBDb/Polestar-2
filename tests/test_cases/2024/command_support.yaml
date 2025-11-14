@@ -1,14 +1,6 @@
 model_year: 2024
 supported_commands_by_ecu:
   "DB33":
-  - 010D:VSS
-  - 011C:OBDSUP
-  - 0142:VPWR
-  - 0146:AAT
-  - 0149:APP_D
-  - 014A:APP_E
-  - 0151:FUEL_TYP
-  - 015B:BAT_SOC
   - DB33.010D:VSS
   - DB33.011C:OBDSUP
   - DB33.0142:VPWR
