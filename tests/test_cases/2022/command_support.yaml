@@ -12,6 +12,7 @@ supported_commands_by_ecu:
   - 0151:FUEL_TYP
   - 015B:BAT_SOC
   - DB33.010D:VSS
+  - DB33.011C:OBDSUP
   - DB33.0142:VPWR
   - DB33.0146:AAT
   - DB33.0151:FUEL_TYP
