@@ -12,6 +12,10 @@ supported_commands_by_ecu:
   - DB33.010D:VSS
   - DB33.011C:OBDSUP
   - DB33.0142:VPWR
+  - DB33.0146:AAT
+  - DB33.0149:APP_D
+  - DB33.014A:APP_E
+  - DB33.0151:FUEL_TYP
   - DB33.015B:BAT_SOC
 unsupported_commands_by_ecu:
   "D016":
