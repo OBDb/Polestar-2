@@ -3,9 +3,392 @@
   "signals": [
     {"id": "POLESTAR2_APP_POS", "path": "Control.Pedals", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal position"}
   ]},
+{ "hdr": "D016", "rax": "1EC02E80", "pri": "1D", "tst": "01", "fcm1": true, "dbg": true, "cmd": {"22": "2B06"}, "freq": 0.25,
+  "signals": [
+    {"id": "POLESTAR2_FL_WHL_SPD", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
+  ]},
+{ "hdr": "D016", "rax": "1EC02E80", "pri": "1D", "tst": "01", "fcm1": true, "dbg": true, "cmd": {"22": "2B07"}, "freq": 0.25,
+  "signals": [
+    {"id": "POLESTAR2_FR_WHL_SPD", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
+  ]},
+{ "hdr": "D016", "rax": "1EC02E80", "pri": "1D", "tst": "01", "fcm1": true, "dbg": true, "cmd": {"22": "2B08"}, "freq": 0.25,
+  "signals": [
+    {"id": "POLESTAR2_RL_WHL_SPD", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "D016", "rax": "1EC02E80", "pri": "1D", "tst": "01", "fcm1": true, "dbg": true, "cmd": {"22": "2B09"}, "freq": 0.25,
+  "signals": [
+    {"id": "POLESTAR2_RR_WHL_SPD", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "D016", "rax": "1EC04E80", "pri": "1D", "tst": "02", "fcm1": true, "dbg": true, "cmd": {"22": "0303"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_COMP_INLET_SENS_P",      "path": "Engine", "fmt": {           "len": 16, "max": 65.53,             "div": 1000,             "unit": "bars"    }, "name": "Compressor inlet sensor pressure"},
+    {"id": "POLESTAR2_COMP_INLET_SENS_T_D016", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 615,   "min": -40, "div": 100,  "add": -40, "unit": "celsius" }, "name": "Compressor inlet sensor temperature"}
+  ]},
+{ "hdr": "D016", "rax": "1EC04E80", "pri": "1D", "tst": "02", "fcm1": true, "dbg": true, "cmd": {"22": "0329"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_COMP_OUTLET_SENS_P",      "path": "Engine", "fmt": {           "len": 16, "max": 65.53,             "div": 1000,             "unit": "bars"    }, "name": "Compressor outlet sensor pressure"},
+    {"id": "POLESTAR2_COMP_OUTLET_SENS_T_D016", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 615,   "min": -40, "div": 100,  "add": -40, "unit": "celsius" }, "name": "Compressor outlet sensor temperature"}
+  ]},
+{ "hdr": "D016", "rax": "1EC04E80", "pri": "1D", "tst": "02", "fcm1": true, "dbg": true, "cmd": {"22": "032B"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HIGH_V_CLT_HEATER_T",        "path": "Engine", "fmt": {           "len": 16, "max": 615, "min": -40, "div": 100, "add": -40, "unit": "celsius" }, "name": "High voltage coolant heater A, inlet temperature"},
+    {"id": "POLESTAR2_HIGH_V_CLT_HEATER_OUTLET_T", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 615, "min": -40, "div": 100, "add": -40, "unit": "celsius" }, "name": "High voltage coolant heater A, outlet temperature"}
+  ]},
+{ "hdr": "D016", "rax": "1EC04E80", "pri": "1D", "tst": "02", "fcm1": true, "dbg": true, "cmd": {"22": "032F"}, "freq": 0.25,
+  "signals": [
+    {"id": "POLESTAR2_AC_COMP_MODULE_SPD",  "path": "Movement", "fmt": {"bix": 16, "len": 8, "max": 12750, "mul": 50, "unit": "rpm"    }, "name": "Air conditioning compressor module a speed"},
+    {"id": "POLESTAR2_AC_COMP_MODULE_STAT", "path": "Engine",   "fmt": {"bix": 24, "len": 8, "max": 255,              "unit": "scalar" }, "name": "Air conditioning compressor module a status"}
+  ]},
+{ "hdr": "D016", "rax": "1EC04E80", "pri": "1D", "tst": "02", "fcm1": true, "dbg": true, "cmd": {"22": "0331"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_AC_COMP_MODULE", "path": "Engine", "fmt": { "len": 8, "max": 127, "div": 2, "unit": "amps" }, "name": "Air conditioning compressor module A current"}
+  ]},
+{ "hdr": "D016", "rax": "1EC60E80", "pri": "1D", "tst": "30", "fcm1": true, "dbg": true, "cmd": {"22": "EE36"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_COMP_INLET_SENS_T", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.14, "unit": "celsius" }, "name": "Compressor inlet sensor temperature"}
+  ]},
+{ "hdr": "D016", "rax": "1EC60E80", "pri": "1D", "tst": "30", "fcm1": true, "dbg": true, "cmd": {"22": "EE38"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_COMP_OUTLET_SENS_T", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.14, "unit": "celsius" }, "name": "Compressor outlet sensor temperature"}
+  ]},
+{ "hdr": "D016", "rax": "1EC60E80", "pri": "1D", "tst": "30", "fcm1": true, "dbg": true, "cmd": {"22": "EE40"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_WATER_COOLED_T", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.14, "unit": "celsius" }, "name": "Water cooled condenser outlet sensor temperature"}
+  ]},
+{ "hdr": "D016", "rax": "1EC60E80", "pri": "1D", "tst": "30", "fcm1": true, "dbg": true, "cmd": {"22": "EE46"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_EXTERNAL_T_SENS", "path": "Battery", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.14, "unit": "celsius" }, "name": "External temperature sensor, HV battery cooling module"}
+  ]},
+{ "hdr": "D016", "rax": "1EC60E80", "pri": "1D", "tst": "30", "fcm1": true, "dbg": true, "cmd": {"22": "EE47"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_OUTSIDE_HEAT_T", "path": "Engine", "fmt": { "len": 16, "max": 6280, "min": -273, "div": 10, "add": -273.14, "unit": "celsius" }, "name": "Outside heat exchanger outlet sensor temperature"}
+  ]},
+{ "hdr": "D016", "rax": "1EC60E80", "pri": "1D", "tst": "30", "fcm1": true, "dbg": true, "cmd": {"22": "EE48"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_OUTSIDE_HEAT_P", "path": "Engine", "fmt": { "len": 32, "max": 2147483647, "min": -2147483648, "sign": true, "unit": "unknown" }, "name": "Outside heat exchanger outlet sensor pressure"}
+  ]},
+{ "hdr": "D016", "rax": "1EC60E80", "pri": "1D", "tst": "30", "fcm1": true, "dbg": true, "cmd": {"22": "EE62"}, "freq": 0.25,
+  "signals": [
+    {"id": "POLESTAR2_RADIATOR_COOLING_FAN_1", "path": "Movement", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "percent" }, "name": "Radiator cooling fan 1, requested speed"}
+  ]},
+{ "hdr": "D016", "rax": "1EC62E80", "pri": "1D", "tst": "31", "fcm1": true, "dbg": true, "cmd": {"22": "2B06"}, "freq": 0.25,
+  "signals": [
+    {"id": "POLESTAR2_FL_WHL_SPD_XC", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
+  ]},
+{ "hdr": "D016", "rax": "1EC62E80", "pri": "1D", "tst": "31", "fcm1": true, "dbg": true, "cmd": {"22": "2B07"}, "freq": 0.25,
+  "signals": [
+    {"id": "POLESTAR2_FR_WHL_SPD_XC", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
+  ]},
+{ "hdr": "D016", "rax": "1EC62E80", "pri": "1D", "tst": "31", "fcm1": true, "dbg": true, "cmd": {"22": "2B08"}, "freq": 0.25,
+  "signals": [
+    {"id": "POLESTAR2_RL_WHL_SPD_XC", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "D016", "rax": "1EC62E80", "pri": "1D", "tst": "31", "fcm1": true, "dbg": true, "cmd": {"22": "2B09"}, "freq": 0.25,
+  "signals": [
+    {"id": "POLESTAR2_RR_WHL_SPD_XC", "path": "Tires", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "D016", "rax": "1EC62E80", "pri": "1D", "tst": "31", "fcm1": true, "dbg": true, "cmd": {"22": "FEE7"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_FL_BRAKE_DISC_T", "path": "Control", "fmt": {           "len": 16, "max": 6553, "div": 10, "unit": "celsius" }, "name": "Front left brake disc temperature"},
+    {"id": "POLESTAR2_FR_BRAKE_DISC_T", "path": "Control", "fmt": {"bix": 16, "len": 16, "max": 6553, "div": 10, "unit": "celsius" }, "name": "Front right brake disc temperature"},
+    {"id": "POLESTAR2_RL_BRAKE_DISC_T", "path": "Control", "fmt": {"bix": 32, "len": 16, "max": 6553, "div": 10, "unit": "celsius" }, "name": "Rear left brake disc temperature"},
+    {"id": "POLESTAR2_RR_BRAKE_DISC_T", "path": "Control", "fmt": {"bix": 48, "len": 16, "max": 6553, "div": 10, "unit": "celsius" }, "name": "Rear right brake disc temperature"}
+  ]},
+{ "hdr": "D016", "rax": "1EC68E80", "pri": "1D", "tst": "34", "fcm1": true, "dbg": true, "cmd": {"22": "EE15"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_MAIN_CHARGER_CURRENT", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "amps" }, "name": "Main charger current"}
+  ]},
+{ "hdr": "D016", "rax": "1EC68E80", "pri": "1D", "tst": "34", "fcm1": true, "dbg": true, "cmd": {"22": "EE16"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_DC_CHARGER_CURRENT", "path": "Battery", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "amps" }, "name": "DC charger current"}
+  ]},
+{ "hdr": "D016", "rax": "1EC68E80", "pri": "1D", "tst": "34", "fcm1": true, "dbg": true, "cmd": {"22": "EE17"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_DC_CHARGER_V", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "DC charger voltage"}
+  ]},
+{ "hdr": "D016", "rax": "1EC68E80", "pri": "1D", "tst": "34", "fcm1": true, "dbg": true, "cmd": {"22": "EE19"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_OBC_T", "path": "Engine", "fmt": { "len": 8, "max": 127, "min": -128, "sign": true, "unit": "celsius" }, "name": "On-board charger module temperature"}
+  ]},
+{ "hdr": "D016", "rax": "1EC68E80", "pri": "1D", "tst": "34", "fcm1": true, "dbg": true, "cmd": {"22": "EE1C"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_MAIN_CHARGER_V", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "volts" }, "name": "Main charger voltage"}
+  ]},
+{ "hdr": "D016", "rax": "1EC68E80", "pri": "1D", "tst": "34", "fcm1": true, "dbg": true, "cmd": {"22": "EE1D"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_CHG_ST", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Charging state"}
+  ]},
+{ "hdr": "D016", "rax": "1EC68E80", "pri": "1D", "tst": "34", "fcm1": true, "dbg": true, "cmd": {"22": "EE8C"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_CHG_SOCKET_LOCKED", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Charging socket, locked"}
+  ]},
+{ "hdr": "D016", "rax": "1EC68E80", "pri": "1D", "tst": "34", "fcm1": true, "dbg": true, "cmd": {"22": "EE8D"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_CHARGER_CABLE", "path": "Battery", "fmt": { "len": 16, "max": 6143, "min": -410, "div": 10, "add": -410, "unit": "amps" }, "name": "Charger cable selected current"}
+  ]},
+{ "hdr": "D016", "rax": "1EC68E80", "pri": "1D", "tst": "34", "fcm1": true, "dbg": true, "cmd": {"22": "EEB6"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_AVG_CHG_TIME_LEFT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "minutes" }, "name": "Average charging time left"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "4801"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_ST_CHG", "path": "Battery", "fmt": { "len": 16, "max": 131, "div": 500, "unit": "percent" }, "name": "High voltage battery state of charge", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "4802"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_CURRENT", "path": "Battery", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "amps" }, "name": "High voltage battery current", "suggestedMetric": "tractionBatteryCurrent"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "4803"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_V", "path": "Battery", "fmt": { "len": 16, "max": 65535, "unit": "volts" }, "name": "High voltage battery voltage", "suggestedMetric": "tractionBatteryVoltage"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "4804"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_CLT_INLET_T", "path": "Battery", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "celsius" }, "name": "High voltage battery coolant inlet temperature"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "4808"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_IEM_FUSE_V", "path": "Battery", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "volts" }, "name": "High voltage battery, IEM fuse voltage"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "4809"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_IGM_FUSE_V", "path": "Battery", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "volts" }, "name": "High voltage battery, IGM fuse voltage"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "480A"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_HVCH_FUSE_V", "path": "Battery", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "volts" }, "name": "High voltage battery, high-voltage coolant heater fuse voltage"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "480B"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_OBC_FUSE_V", "path": "Battery", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "volts" }, "name": "High voltage battery, OBC fuse voltage"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "4857"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_CONTACTOR_V", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "High voltage battery contactor voltage"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "4858"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_V_IHFA_FUSE", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "High voltage battery - voltage at IHFA fuse"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "4859"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_V_IEM_FUSE", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "High voltage battery - voltage at IEM fuse"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "4866"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_CLT_PMP_SPD", "path": "Battery", "fmt": { "len": 8, "max": 6120, "mul": 24, "unit": "rpm" }, "name": "High voltage battery, coolant pump speed, requested"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "4867"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_CLT_PMP_SPD_ACT", "path": "Battery", "fmt": { "len": 8, "max": 6120, "mul": 24, "unit": "rpm" }, "name": "High voltage battery, coolant pump speed, actual"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "489C"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_CHG_POWER_LIM", "path": "Battery", "fmt": { "len": 24, "max": 4294, "mul": 4, "div": 15625, "unit": "kilowatts" }, "name": "Charge power limit"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "489E"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_DCHG_POWER_LIM", "path": "Battery", "fmt": { "len": 24, "max": 4294, "mul": 4, "div": 15625, "unit": "kilowatts" }, "name": "Discharge power limit"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "491B"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_AVG_T", "path": "Battery", "fmt": { "len": 16, "max": 605, "min": -50, "div": 100, "add": -50, "unit": "celsius" }, "name": "High voltage battery, average temperature"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "4945"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_MAX_T", "path": "Battery", "fmt": {"bix": 8, "len": 16, "max": 605, "min": -50, "div": 100, "add": -50, "unit": "celsius" }, "name": "High voltage battery, max temperature"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "4946"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_12V_BAT_ST_CHG", "path": "Battery", "fmt": { "len": 16, "max": 4294, "mul": 1024, "div": 15625, "unit": "percent" }, "name": "12V battery state of charge"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "496D"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_ST_HEALTH", "path": "Battery", "fmt": { "len": 32, "max": 42949672, "div": 100, "unit": "percent" }, "name": "High voltage battery state of health", "suggestedMetric": "stateOfHealth"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "497C"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_CELL_VOLTAGES", "path": "Battery", "fmt": { "len": 16, "max": 655, "div": 100, "unit": "volts" }, "name": "High voltage battery cell voltage sum"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "498B"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_FUSE_DC_CHG_V", "path": "Battery", "fmt": { "len": 16, "max": 6553, "div": 10, "unit": "volts" }, "name": "Fuse DC charging voltage"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "4990"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_CLT_OUTLET_T", "path": "Battery", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "celsius" }, "name": "High voltage battery coolant outlet temperature"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "4A58"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HVBAT_NEGATIVE_V", "path": "Battery", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "volts" }, "name": "High voltage battery negative contactor voltage"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "4A88"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_ACT_POWER", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilowatts" }, "name": "Actual power"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6AE80", "pri": "1D", "tst": "35", "fcm1": true, "dbg": true, "cmd": {"22": "F442"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_ENG_CTRL_MODULE_SUP_V", "path": "Battery", "fmt": { "len": 16, "max": 65.53, "div": 1000, "unit": "volts" }, "name": "Control module supply voltage"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6EE80", "pri": "1D", "tst": "37", "fcm1": true, "dbg": true, "cmd": {"22": "4A00"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_ERAD_MOTOR_WINDING_T_1", "path": "Engine", "fmt": { "len": 32, "max": 214748364, "min": -214748364, "div": 10, "sign": true, "unit": "celsius" }, "name": "Electric rear axle drive motor winding temperature sensor 1"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6EE80", "pri": "1D", "tst": "37", "fcm1": true, "dbg": true, "cmd": {"22": "4A01"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_ERAD_MOTOR_WINDING_T_2", "path": "Engine", "fmt": { "len": 32, "max": 214748364, "min": -214748364, "div": 10, "sign": true, "unit": "celsius" }, "name": "Electric rear axle drive motor winding temperature sensor 2"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6EE80", "pri": "1D", "tst": "37", "fcm1": true, "dbg": true, "cmd": {"22": "4A0E"}, "freq": 0.25,
+  "signals": [
+    {"id": "POLESTAR2_ERAD_MOTOR_SPD", "path": "Movement", "fmt": { "len": 32, "max": 214748364, "min": -214748364, "div": 10, "sign": true, "unit": "rpm" }, "name": "Electric rear axle drive motor speed"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6EE80", "pri": "1D", "tst": "37", "fcm1": true, "dbg": true, "cmd": {"22": "985C"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HIGH_V_SYSTEM_V", "path": "Battery", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "volts" }, "name": "High voltage system voltage"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6EE80", "pri": "1D", "tst": "37", "fcm1": true, "dbg": true, "cmd": {"22": "985E"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_ELEC_DRIVETRAIN_ECT",     "path": "Engine", "fmt": {           "len": 32, "max": 2147483607, "min": -2147483688, "add": -40, "sign": true, "unit": "celsius" }, "name": "Electric drivetrain coolant temperature, IEM inlet"},
+    {"id": "POLESTAR2_ELEC_DRIVETRAIN_ECT_IEM", "path": "Engine", "fmt": {"bix": 32, "len": 32, "max": 2147483607, "min": -2147483688, "add": -40, "sign": true, "unit": "celsius" }, "name": "Electric drivetrain coolant temperature, IEM outlet"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6EE80", "pri": "1D", "tst": "37", "fcm1": true, "dbg": true, "cmd": {"22": "9861"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HIGH_V_SYSTEM", "path": "Engine", "fmt": { "len": 16, "max": 3316, "min": -3236, "div": 10, "add": 40, "sign": true, "unit": "amps" }, "name": "High voltage system current"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6EE80", "pri": "1D", "tst": "37", "fcm1": true, "dbg": true, "cmd": {"22": "DD01"}, "freq": 30,
+  "signals": [
+    {"id": "POLESTAR2_TOT_DIST", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Total distance"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6EE80", "pri": "1D", "tst": "37", "fcm1": true, "dbg": true, "cmd": {"22": "EE09"}, "freq": 0.25,
+  "signals": [
+    {"id": "POLESTAR2_ERAD_CALC_TQ_D016", "path": "Engine", "fmt": { "len": 16, "max": 253952, "min": -8188, "mul": 4, "add": -8188, "unit": "newtonMeters" }, "name": "Electric rear axle drive calculated torque"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6EE80", "pri": "1D", "tst": "37", "fcm1": true, "dbg": true, "cmd": {"22": "EF12"}, "freq": 0.25,
+  "signals": [
+    {"id": "POLESTAR2_ERAD_CALC_TQ", "path": "Engine", "fmt": { "len": 16, "max": 253952, "min": -8188, "mul": 4, "add": -8188, "unit": "newtonMeters" }, "name": "Electric rear axle drive calculated torque"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6EE80", "pri": "1D", "tst": "37", "fcm1": true, "dbg": true, "cmd": {"22": "EF13"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HIGH_V_SYSTEM_XC", "path": "Engine", "fmt": { "len": 8, "max": 260, "min": -250, "mul": 2, "add": -250, "unit": "amps" }, "name": "High voltage system current"}
+  ]},
+{ "hdr": "D016", "rax": "1EC6EE80", "pri": "1D", "tst": "37", "fcm1": true, "dbg": true, "cmd": {"22": "F40D"}, "freq": 0.25,
+  "signals": [
+    {"id": "POLESTAR2_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed"}
+  ]},
+{ "hdr": "D016", "rax": "1EC70E80", "pri": "1D", "tst": "38", "fcm1": true, "dbg": true, "cmd": {"22": "1946"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_MODULE_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "milliamps" }, "name": "Module current"}
+  ]},
+{ "hdr": "D016", "rax": "1EC70E80", "pri": "1D", "tst": "38", "fcm1": true, "dbg": true, "cmd": {"22": "D111"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_MODULE_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Module voltage"}
+  ]},
+{ "hdr": "D016", "rax": "1EC70E80", "pri": "1D", "tst": "38", "fcm1": true, "dbg": true, "cmd": {"22": "D920"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_CLU_PMP_DUTY", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Clutch pump duty"}
+  ]},
+{ "hdr": "D016", "rax": "1EC70E80", "pri": "1D", "tst": "38", "fcm1": true, "dbg": true, "cmd": {"22": "DD01"}, "freq": 30,
+  "signals": [
+    {"id": "POLESTAR2_DEM_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Total distance", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "D016", "rax": "1ED24E80", "pri": "1D", "tst": "92", "fcm1": true, "dbg": true, "cmd": {"22": "49D4"}, "freq": 0.25,
+  "signals": [
+    {"id": "POLESTAR2_ELECTRICAL_FRONT", "path": "Engine", "fmt": { "len": 32, "max": 2147482623, "min": -2147484672, "add": -1024, "sign": true, "unit": "newtonMeters" }, "name": "Electric front axle drive torque"}
+  ]},
+{ "hdr": "D016", "rax": "1ED24E80", "pri": "1D", "tst": "92", "fcm1": true, "dbg": true, "cmd": {"22": "985C"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HIGH_V_SYSTEM_V_D016", "path": "Battery", "fmt": { "len": 16, "max": 16383, "div": 4, "unit": "volts" }, "name": "High voltage system voltage"}
+  ]},
+{ "hdr": "D016", "rax": "1ED24E80", "pri": "1D", "tst": "92", "fcm1": true, "dbg": true, "cmd": {"22": "985E"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_ELEC_DRIVETRAIN_ECT_IHFA",        "path": "Engine", "fmt": {           "len": 32, "max": 2147483607, "min": -2147483688, "add": -40, "sign": true, "unit": "celsius" }, "name": "Electric drivetrain coolant temperature, IHFA inlet"},
+    {"id": "POLESTAR2_ELEC_DRIVETRAIN_ECT_IHFA_OUTLET", "path": "Engine", "fmt": {"bix": 32, "len": 32, "max": 2147483607, "min": -2147483688, "add": -40, "sign": true, "unit": "celsius" }, "name": "Electric drivetrain coolant temperature, IHFA outlet"}
+  ]},
+{ "hdr": "D016", "rax": "1ED24E80", "pri": "1D", "tst": "92", "fcm1": true, "dbg": true, "cmd": {"22": "9861"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_HIGH_V_SYSTEM_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 3316, "min": -3236, "div": 10, "add": 40, "sign": true, "unit": "amps" }, "name": "High voltage system current"}
+  ]},
+{ "hdr": "D018", "rax": "1F002E80", "pri": "1D", "tst": "01", "fcm1": true, "dbg": true, "cmd": {"22": "61BB"}, "freq": 30,
+  "signals": [
+    {"id": "POLESTAR2_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "D018", "rax": "1F002E80", "pri": "1D", "tst": "01", "fcm1": true, "dbg": true, "cmd": {"22": "D903"}, "freq": 30,
+  "signals": [
+    {"id": "POLESTAR2_DIST_SINCE_SERVICE", "path": "Trips",  "fmt": {           "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since last service"},
+    {"id": "POLESTAR2_DAYS_SINCE_SERVICE", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 65535, "unit": "unknown"    }, "name": "Days since last service"},
+    {"id": "POLESTAR2_MOTOR_HOURS_SINCE",  "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 65535, "unit": "hours"      }, "name": "Motor hours since last service"}
+  ]},
+{ "hdr": "D018", "rax": "1F002E80", "pri": "1D", "tst": "01", "fcm1": true, "dbg": true, "cmd": {"22": "D906"}, "freq": 30,
+  "signals": [
+    {"id": "POLESTAR2_ODO_LAST_SERVICE", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer at last service"}
+  ]},
 { "hdr": "D01A", "pri": "1D", "tst": "01", "fcm1": true, "dbg": true, "cmd": {"22": "4028"}, "freq": 1,
   "signals": [
     {"id": "POLESTAR2_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "State of charge"}
+  ]},
+{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "dbg": true, "cmd": {"22": "4025"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_AVG_STATIC_LOW_RANGE", "path": "Battery", "fmt": { "len": 16, "max": 65024, "min": -511, "add": -511, "unit": "milliamps" }, "name": "Average static low range battery current"}
+  ]},
+{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "dbg": true, "cmd": {"22": "4090"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_BAT_CURRENT", "path": "Battery", "fmt": { "len": 16, "max": 3583, "min": -512, "div": 16, "add": -512, "unit": "amps" }, "name": "Battery current"}
+  ]},
+{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "dbg": true, "cmd": {"22": "40CD"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_BAT_V", "path": "Battery", "fmt": { "len": 16, "max": 1643, "div": 40, "add": 5, "unit": "volts" }, "name": "Battery voltage"}
+  ]},
+{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "dbg": true, "cmd": {"22": "40D3"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_AUXILIARY_BAT_T", "path": "Battery", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Auxiliary battery temperature"}
+  ]},
+{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "dbg": true, "cmd": {"22": "4112"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_AUXILIARY_BAT", "path": "Battery", "fmt": { "len": 8, "max": 128, "min": -127, "add": -127, "unit": "amps" }, "name": "Auxiliary battery current"}
+  ]},
+{ "hdr": "D01A", "rax": "1F402E80", "pri": "1D", "tst": "01", "fcm1": true, "dbg": true, "cmd": {"22": "417E"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_AUXILIARY_BAT_V", "path": "Battery", "fmt": { "len": 8, "max": 25.5, "div": 10, "unit": "volts" }, "name": "Auxiliary battery voltage"}
+  ]},
+{ "hdr": "D01A", "rax": "1F422E80", "pri": "1D", "tst": "11", "fcm1": true, "dbg": true, "cmd": {"22": "4336"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_AUXILIARY_WATER_PMP", "path": "Climate", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Auxiliary water pump duty cycle"}
+  ]},
+{ "hdr": "D01A", "rax": "1F422E80", "pri": "1D", "tst": "11", "fcm1": true, "dbg": true, "cmd": {"22": "4337"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_HEAT_EXCHANGER_T_V_2", "path": "Climate", "fmt": { "len": 8, "max": 406, "min": -409, "mul": 16, "div": 5, "sign": true, "unit": "celsius" }, "name": "Heat exchanger temperature, variant 2"}
+  ]},
+{ "hdr": "D01A", "rax": "1F422E80", "pri": "1D", "tst": "11", "fcm1": true, "dbg": true, "cmd": {"22": "4344"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_HVCH_CLT_INLET_T",  "path": "Climate", "fmt": {          "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "High-voltage coolant heater coolant inlet temperature"},
+    {"id": "POLESTAR2_HVCH_CLT_OUTLET_T", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "High-voltage coolant heater coolant outlet temperature"}
+  ]},
+{ "hdr": "D01A", "rax": "1F422E80", "pri": "1D", "tst": "11", "fcm1": true, "dbg": true, "cmd": {"22": "4345"}, "freq": 1,
+  "signals": [
+    {"id": "POLESTAR2_CURRENT_CONS_HVCH",   "path": "Engine", "fmt": {           "len": 8,  "max": 63.75,              "div": 4, "unit": "amps"  }, "name": "High-voltage coolant heater current"},
+    {"id": "POLESTAR2_CURRENT_CONS_HVCH_W", "path": "Engine", "fmt": {"bix": 8,  "len": 16, "max": 1310700, "mul": 20,           "unit": "watts" }, "name": "High-voltage coolant heater power"},
+    {"id": "POLESTAR2_REQ_CONS_HVCH_CCM_W", "path": "Engine", "fmt": {"bix": 24, "len": 16, "max": 1310700, "mul": 20,           "unit": "watts" }, "name": "High-voltage coolant heater requested power"}
+  ]},
+{ "hdr": "D01A", "rax": "1F422E80", "pri": "1D", "tst": "11", "fcm1": true, "dbg": true, "cmd": {"22": "43BE"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_FOH_INLET_WATER_T",  "path": "Climate", "fmt": {          "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel-operated heater, inlet water temperature"},
+    {"id": "POLESTAR2_FOH_OUTLET_WATER_T", "path": "Climate", "fmt": {"bix": 8, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel-operated heater, outlet water temperature"}
+  ]},
+{ "hdr": "D01A", "rax": "1F422E80", "pri": "1D", "tst": "11", "fcm1": true, "dbg": true, "cmd": {"22": "9820"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_EVAPORATOR_T_V_2", "path": "Climate", "fmt": { "len": 8, "max": 406, "min": -409, "mul": 16, "div": 5, "sign": true, "unit": "celsius" }, "name": "Evaporator temperature, variant 2"}
+  ]},
+{ "hdr": "D01A", "rax": "1F422E80", "pri": "1D", "tst": "11", "fcm1": true, "dbg": true, "cmd": {"22": "9843"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_INTERIOR_T", "path": "Engine", "fmt": { "len": 8, "max": 144, "min": -60, "mul": 4, "div": 5, "add": -60, "unit": "celsius" }, "name": "Interior temperature"}
+  ]},
+{ "hdr": "D01A", "rax": "1F422E80", "pri": "1D", "tst": "11", "fcm1": true, "dbg": true, "cmd": {"22": "984F"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_EVAPORATOR_T", "path": "Engine", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "celsius" }, "name": "Evaporator temperature"}
+  ]},
+{ "hdr": "D01A", "rax": "1F422E80", "pri": "1D", "tst": "11", "fcm1": true, "dbg": true, "cmd": {"22": "9850"}, "freq": 5,
+  "signals": [
+    {"id": "POLESTAR2_HEAT_EXCHANGER_T", "path": "Climate", "fmt": { "len": 16, "max": 3276, "min": -3276, "div": 10, "sign": true, "unit": "celsius" }, "name": "Heat exchanger temperature"}
   ]}
 ]
 }
