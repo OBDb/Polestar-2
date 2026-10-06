@@ -6,3 +6,8 @@ test_cases:
 - expected_values:
     VSS: 152
   response: 18DAF11003410D98
+- expected_values:
+    VSS: 18
+  response: |-
+    1FFF013004F8027C02
+    18DAF11003410D12
