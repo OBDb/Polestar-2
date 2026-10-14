@@ -12,6 +12,11 @@ test_cases:
     1FFF013004F8027C02
     18DAF11003410D12
 - expected_values:
+    VSS: 67
+  response: |-
+    1FFF01441F0835DCA3020026
+    18DAF11003410D43
+- expected_values:
     VSS: 27
   response: |-
     1FFF01441F28CF8FA302078F
