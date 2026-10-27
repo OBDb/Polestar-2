@@ -93,6 +93,8 @@ supported_commands_by_ecu:
   - DB33.0151:FUEL_TYP
   - DB33.015B:BAT_SOC
 unsupported_commands_by_ecu:
+  "7E0":
+  - 7E0.010D:VSS
   "D016":
   - D016.1EC02E80.222B06|ta=01,fc=1,c=1D:POLESTAR2_FL_WHL_SPD
   - D016.1EC02E80.222B07|ta=01,fc=1,c=1D:POLESTAR2_FR_WHL_SPD
