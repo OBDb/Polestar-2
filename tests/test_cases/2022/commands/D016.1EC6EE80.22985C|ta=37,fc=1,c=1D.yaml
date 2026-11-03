@@ -1,0 +1,8 @@
+command_id: D016.1EC6EE80.22985C|ta=37,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_V: 419.5
+  response: 1EC6EE800562985C068E
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_V: 430
+  response: 1EC6EE800562985C06B8

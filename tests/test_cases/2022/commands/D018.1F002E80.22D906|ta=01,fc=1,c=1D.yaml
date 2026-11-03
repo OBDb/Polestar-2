@@ -1,0 +1,7 @@
+command_id: D018.1F002E80.22D906|ta=01,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_ODO_LAST_SERVICE: 47779
+  response: |-
+    1F002E80100C62D90600BAA3
+    1F002E8021081DE4D5083C00

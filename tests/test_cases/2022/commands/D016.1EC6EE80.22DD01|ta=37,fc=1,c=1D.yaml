@@ -1,0 +1,8 @@
+command_id: D016.1EC6EE80.22DD01|ta=37,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_TOT_DIST: 48799
+  response: 1EC6EE800662DD0100BE9F
+- expected_values:
+    POLESTAR2_TOT_DIST: 48800
+  response: 1EC6EE800662DD0100BEA0

@@ -1,0 +1,8 @@
+command_id: D018.1F002E80.2261BB|ta=01,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_ODO: 48793
+  response: 1F002E80066261BB00BE99
+- expected_values:
+    POLESTAR2_ODO: 48803
+  response: 1F002E80066261BB00BEA3

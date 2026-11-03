@@ -1,0 +1,8 @@
+command_id: D016.1EC6AE80.224858|ta=35,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HVBAT_V_IHFA_FUSE: 418.7
+  response: 1EC6AE8005624858105B
+- expected_values:
+    POLESTAR2_HVBAT_V_IHFA_FUSE: 430.5
+  response: 1EC6AE800562485810D1

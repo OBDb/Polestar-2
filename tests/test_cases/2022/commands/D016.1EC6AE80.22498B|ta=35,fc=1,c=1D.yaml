@@ -1,0 +1,5 @@
+command_id: D016.1EC6AE80.22498B|ta=35,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_FUSE_DC_CHG_V: 0
+  response: 1EC6AE800562498B0000

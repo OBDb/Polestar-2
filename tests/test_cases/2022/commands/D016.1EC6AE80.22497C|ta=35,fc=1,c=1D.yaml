@@ -1,0 +1,14 @@
+command_id: D016.1EC6AE80.22497C|ta=35,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HVBAT_CELL_VOLTAGES: 418.7
+  response: 1EC6AE800562497CA38E
+- expected_values:
+    POLESTAR2_HVBAT_CELL_VOLTAGES: 425
+  response: 1EC6AE800562497CA604
+- expected_values:
+    POLESTAR2_HVBAT_CELL_VOLTAGES: 427.5
+  response: 1EC6AE800562497CA6FE
+- expected_values:
+    POLESTAR2_HVBAT_CELL_VOLTAGES: 427.8
+  response: 1EC6AE800562497CA71C

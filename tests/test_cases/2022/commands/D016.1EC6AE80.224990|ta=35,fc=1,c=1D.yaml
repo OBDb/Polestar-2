@@ -1,0 +1,11 @@
+command_id: D016.1EC6AE80.224990|ta=35,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HVBAT_CLT_OUTLET_T: 21.7
+  response: 1EC6AE800562499000D9
+- expected_values:
+    POLESTAR2_HVBAT_CLT_OUTLET_T: 25.5
+  response: 1EC6AE800562499000FF
+- expected_values:
+    POLESTAR2_HVBAT_CLT_OUTLET_T: 25.6
+  response: 1EC6AE80056249900100

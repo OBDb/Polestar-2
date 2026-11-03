@@ -1,0 +1,11 @@
+command_id: D016.1EC6AE80.224802|ta=35,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HVBAT_CURRENT: 0
+  response: 1EC6AE8006624802000003
+- expected_values:
+    POLESTAR2_HVBAT_CURRENT: 25.5
+  response: 1EC6AE800662480200FF03
+- expected_values:
+    POLESTAR2_HVBAT_CURRENT: -25.4
+  response: 1EC6AE8006624802FF0203

@@ -1,0 +1,23 @@
+command_id: D01A.1F402E80.2240CD|ta=01,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_BAT_V: 14.25
+  response: 1F402E80056240CD0172
+- expected_values:
+    POLESTAR2_BAT_V: 14.275
+  response: 1F402E80056240CD0173
+- expected_values:
+    POLESTAR2_BAT_V: 14.525
+  response: 1F402E80056240CD017D
+- expected_values:
+    POLESTAR2_BAT_V: 15.175
+  response: 1F402E80056240CD0197
+- expected_values:
+    POLESTAR2_BAT_V: 15.2
+  response: 1F402E80056240CD0198
+- expected_values:
+    POLESTAR2_BAT_V: 15.225
+  response: 1F402E80056240CD0199
+- expected_values:
+    POLESTAR2_BAT_V: 15.25
+  response: 1F402E80056240CD019A

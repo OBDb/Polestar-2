@@ -1,0 +1,8 @@
+command_id: D01A.1F422E80.22984F|ta=11,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_EVAPORATOR_T: 2.9
+  response: 1F422E800662984F001D00
+- expected_values:
+    POLESTAR2_EVAPORATOR_T: 10.9
+  response: 1F422E800662984F006D00

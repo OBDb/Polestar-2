@@ -1,0 +1,11 @@
+command_id: D016.1EC60E80.22EE36|ta=30,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_COMP_INLET_SENS_T: 2.46
+  response: 1EC60E800562EE360AC4
+- expected_values:
+    POLESTAR2_COMP_INLET_SENS_T: 8.06
+  response: 1EC60E800562EE360AFC
+- expected_values:
+    POLESTAR2_COMP_INLET_SENS_T: 8.96
+  response: 1EC60E800562EE360B05

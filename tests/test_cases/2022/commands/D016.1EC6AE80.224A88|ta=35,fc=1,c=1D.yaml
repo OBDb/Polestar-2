@@ -1,0 +1,11 @@
+command_id: D016.1EC6AE80.224A88|ta=35,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_ACT_POWER: 0
+  response: 1EC6AE8005624A880000
+- expected_values:
+    POLESTAR2_ACT_POWER: -29
+  response: 1EC6AE8005624A88FFE3
+- expected_values:
+    POLESTAR2_ACT_POWER: -1
+  response: 1EC6AE8005624A88FFFF

@@ -1,0 +1,11 @@
+command_id: D016.1EC60E80.22EE40|ta=30,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_WATER_COOLED_T: 30.16
+  response: 1EC60E800562EE400BD9
+- expected_values:
+    POLESTAR2_WATER_COOLED_T: 33.86
+  response: 1EC60E800562EE400BFE
+- expected_values:
+    POLESTAR2_WATER_COOLED_T: 34.16
+  response: 1EC60E800562EE400C01

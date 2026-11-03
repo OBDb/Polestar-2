@@ -1,0 +1,5 @@
+command_id: D016.1EC68E80.22EE8D|ta=34,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_CHARGER_CABLE: 0
+  response: 1EC68E800562EE8D1004

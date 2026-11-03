@@ -1,0 +1,5 @@
+command_id: D016.1EC6AE80.22496D|ta=35,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HVBAT_ST_HEALTH: 90.57
+  response: 1EC6AE800762496D00002361
