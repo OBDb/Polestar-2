@@ -1,0 +1,8 @@
+command_id: D01A.1F402E80.224090|ta=01,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_BAT_CURRENT: 3
+  response: 1F402E80056240902030
+- expected_values:
+    POLESTAR2_BAT_CURRENT: 6.6875
+  response: 1F402E8005624090206B

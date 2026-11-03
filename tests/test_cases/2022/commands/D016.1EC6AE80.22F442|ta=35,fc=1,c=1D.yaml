@@ -1,0 +1,11 @@
+command_id: D016.1EC6AE80.22F442|ta=35,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_ENG_CTRL_MODULE_SUP_V: 13.832
+  response: 1EC6AE800562F4423608
+- expected_values:
+    POLESTAR2_ENG_CTRL_MODULE_SUP_V: 14.847
+  response: 1EC6AE800562F44239FF
+- expected_values:
+    POLESTAR2_ENG_CTRL_MODULE_SUP_V: 14.853
+  response: 1EC6AE800562F4423A05

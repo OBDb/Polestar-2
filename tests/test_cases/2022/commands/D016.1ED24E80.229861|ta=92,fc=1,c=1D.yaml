@@ -1,0 +1,11 @@
+command_id: D016.1ED24E80.229861|ta=92,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_CURRENT: 40
+  response: 1ED24E80056298610000
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_CURRENT: 23
+  response: 1ED24E8005629861FF56
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_CURRENT: 39.4
+  response: 1ED24E8005629861FFFA

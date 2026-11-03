@@ -1,0 +1,29 @@
+command_id: D016.1EC6AE80.224945|ta=35,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HVBAT_MAX_T: -49.38
+  response: 1EC6AE800662494507003E
+- expected_values:
+    POLESTAR2_HVBAT_MAX_T: -49.37
+  response: 1EC6AE800662494507003F
+- expected_values:
+    POLESTAR2_HVBAT_MAX_T: -49.37
+  response: 1EC6AE800662494514003F
+- expected_values:
+    POLESTAR2_HVBAT_MAX_T: -49.36
+  response: 1EC6AE8006624945140040
+- expected_values:
+    POLESTAR2_HVBAT_MAX_T: -49.35
+  response: 1EC6AE8006624945140041
+- expected_values:
+    POLESTAR2_HVBAT_MAX_T: -49.38
+  response: 1EC6AE800662494532003E
+- expected_values:
+    POLESTAR2_HVBAT_MAX_T: -49.37
+  response: 1EC6AE800662494532003F
+- expected_values:
+    POLESTAR2_HVBAT_MAX_T: -49.36
+  response: 1EC6AE8006624945320040
+- expected_values:
+    POLESTAR2_HVBAT_MAX_T: -49.34
+  response: 1EC6AE8006624945320042

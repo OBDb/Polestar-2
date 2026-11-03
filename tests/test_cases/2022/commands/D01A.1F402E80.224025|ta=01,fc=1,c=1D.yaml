@@ -1,0 +1,8 @@
+command_id: D01A.1F402E80.224025|ta=01,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_AVG_STATIC_LOW_RANGE: -29
+  response: 1F402E800562402501E2
+- expected_values:
+    POLESTAR2_AVG_STATIC_LOW_RANGE: -28
+  response: 1F402E800562402501E3

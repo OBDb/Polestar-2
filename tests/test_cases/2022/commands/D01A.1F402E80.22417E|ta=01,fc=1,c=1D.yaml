@@ -1,0 +1,5 @@
+command_id: D01A.1F402E80.22417E|ta=01,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_AUXILIARY_BAT_V: 0
+  response: 1F402E800462417E00

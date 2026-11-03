@@ -1,0 +1,20 @@
+command_id: D016.1EC04E80.220331|ta=02,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_AC_COMP_MODULE: 104.5
+  response: 1EC04E8007620331D1024F13
+- expected_values:
+    POLESTAR2_AC_COMP_MODULE: 105
+  response: 1EC04E8007620331D2044F1A
+- expected_values:
+    POLESTAR2_AC_COMP_MODULE: 106
+  response: 1EC04E8007620331D4004A00
+- expected_values:
+    POLESTAR2_AC_COMP_MODULE: 106
+  response: 1EC04E8007620331D4064C18
+- expected_values:
+    POLESTAR2_AC_COMP_MODULE: 107
+  response: 1EC04E8007620331D6035218
+- expected_values:
+    POLESTAR2_AC_COMP_MODULE: 107.5
+  response: 1EC04E8007620331D7025115

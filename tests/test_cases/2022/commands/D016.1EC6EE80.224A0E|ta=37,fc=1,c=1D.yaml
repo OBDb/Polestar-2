@@ -1,0 +1,14 @@
+command_id: D016.1EC6EE80.224A0E|ta=37,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_ERAD_MOTOR_SPD: 0
+  response: 1EC6EE8007624A0E00000000
+- expected_values:
+    POLESTAR2_ERAD_MOTOR_SPD: -315
+  response: 1EC6EE8007624A0EFFFFF3B2
+- expected_values:
+    POLESTAR2_ERAD_MOTOR_SPD: -7.3
+  response: 1EC6EE8007624A0EFFFFFFB7
+- expected_values:
+    POLESTAR2_ERAD_MOTOR_SPD: -0.3
+  response: 1EC6EE8007624A0EFFFFFFFD

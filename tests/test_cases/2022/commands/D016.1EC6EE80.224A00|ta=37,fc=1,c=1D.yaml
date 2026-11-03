@@ -1,0 +1,8 @@
+command_id: D016.1EC6EE80.224A00|ta=37,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_ERAD_MOTOR_WINDING_T_1: 25.7
+  response: 1EC6EE8007624A0000000101
+- expected_values:
+    POLESTAR2_ERAD_MOTOR_WINDING_T_1: 40.5
+  response: 1EC6EE8007624A0000000195

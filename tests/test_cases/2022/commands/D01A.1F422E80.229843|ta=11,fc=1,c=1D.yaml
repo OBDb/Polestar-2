@@ -1,0 +1,5 @@
+command_id: D01A.1F422E80.229843|ta=11,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_INTERIOR_T: -60
+  response: 1F422E80056298430000

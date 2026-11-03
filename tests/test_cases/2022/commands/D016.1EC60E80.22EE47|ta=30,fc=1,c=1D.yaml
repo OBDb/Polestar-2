@@ -1,0 +1,11 @@
+command_id: D016.1EC60E80.22EE47|ta=30,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_OUTSIDE_HEAT_T: 27.96
+  response: 1EC60E800562EE470BC3
+- expected_values:
+    POLESTAR2_OUTSIDE_HEAT_T: 29.56
+  response: 1EC60E800562EE470BD3
+- expected_values:
+    POLESTAR2_OUTSIDE_HEAT_T: 34.16
+  response: 1EC60E800562EE470C01

@@ -1,0 +1,8 @@
+command_id: D016.1EC6EE80.22F40D|ta=37,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_VSS: 0
+  response: 1EC6EE800462F40D00
+- expected_values:
+    POLESTAR2_VSS: 34
+  response: 1EC6EE800462F40D22

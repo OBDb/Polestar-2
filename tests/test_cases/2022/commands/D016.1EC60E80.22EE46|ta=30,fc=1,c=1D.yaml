@@ -1,0 +1,8 @@
+command_id: D016.1EC60E80.22EE46|ta=30,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_EXTERNAL_T_SENS: 22.46
+  response: 1EC60E800562EE460B8C
+- expected_values:
+    POLESTAR2_EXTERNAL_T_SENS: 29.76
+  response: 1EC60E800562EE460BD5

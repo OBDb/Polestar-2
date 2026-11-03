@@ -1,0 +1,11 @@
+command_id: D016.1EC6AE80.224804|ta=35,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HVBAT_CLT_INLET_T: 22.6
+  response: 1EC6AE800562480400E2
+- expected_values:
+    POLESTAR2_HVBAT_CLT_INLET_T: 25.5
+  response: 1EC6AE800562480400FF
+- expected_values:
+    POLESTAR2_HVBAT_CLT_INLET_T: 25.6
+  response: 1EC6AE80056248040100

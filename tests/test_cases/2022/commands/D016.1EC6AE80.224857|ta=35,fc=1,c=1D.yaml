@@ -1,0 +1,8 @@
+command_id: D016.1EC6AE80.224857|ta=35,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HVBAT_CONTACTOR_V: 419
+  response: 1EC6AE8005624857105E
+- expected_values:
+    POLESTAR2_HVBAT_CONTACTOR_V: 429.4
+  response: 1EC6AE800562485710C6

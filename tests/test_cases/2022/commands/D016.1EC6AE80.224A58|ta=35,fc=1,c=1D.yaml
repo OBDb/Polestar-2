@@ -1,0 +1,8 @@
+command_id: D016.1EC6AE80.224A58|ta=35,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HVBAT_NEGATIVE_V: 0
+  response: 1EC6AE8005624A580000
+- expected_values:
+    POLESTAR2_HVBAT_NEGATIVE_V: 0.2
+  response: 1EC6AE8005624A580002

@@ -1,0 +1,6 @@
+command_id: D01A.1F422E80.224344|ta=11,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HVCH_CLT_INLET_T: 215
+    POLESTAR2_HVCH_CLT_OUTLET_T: 215
+  response: 1F422E8005624344FFFF
