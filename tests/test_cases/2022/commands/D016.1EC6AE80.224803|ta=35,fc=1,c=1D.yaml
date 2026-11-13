@@ -1,8 +1,8 @@
 command_id: D016.1EC6AE80.224803|ta=35,fc=1,c=1D
 test_cases:
 - expected_values:
-    POLESTAR2_HVBAT_V: 374
-  response: 1EC6AE80056248030176
+    POLESTAR2_HVBAT_V: 371
+  response: 1EC6AE80056248030173
 - expected_values:
     POLESTAR2_HVBAT_V: 446
   response: 1EC6AE800562480301BE
