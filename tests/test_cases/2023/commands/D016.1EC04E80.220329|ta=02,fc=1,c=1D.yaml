@@ -1,0 +1,6 @@
+command_id: D016.1EC04E80.220329|ta=02,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_COMP_OUTLET_SENS_P: 6.9
+    POLESTAR2_COMP_OUTLET_SENS_T_D016: 41.8
+  response: 1EC04E80076203291AF41FF4
