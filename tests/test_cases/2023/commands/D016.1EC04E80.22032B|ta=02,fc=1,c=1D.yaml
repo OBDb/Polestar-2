@@ -1,0 +1,6 @@
+command_id: D016.1EC04E80.22032B|ta=02,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HIGH_V_CLT_HEATER_OUTLET_T: 36.1
+    POLESTAR2_HIGH_V_CLT_HEATER_T: 35.6
+  response: 1EC04E800762032B1D881DBA

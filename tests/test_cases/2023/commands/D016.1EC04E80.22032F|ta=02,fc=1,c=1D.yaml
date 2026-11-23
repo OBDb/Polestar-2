@@ -1,0 +1,6 @@
+command_id: D016.1EC04E80.22032F|ta=02,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_AC_COMP_MODULE_SPD: 0
+    POLESTAR2_AC_COMP_MODULE_STAT: 0
+  response: 1EC04E800762032F01110000

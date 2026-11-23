@@ -1,0 +1,6 @@
+command_id: D016.1EC04E80.220303|ta=02,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_COMP_INLET_SENS_P: 0
+    POLESTAR2_COMP_INLET_SENS_T_D016: 0
+  response: 1EC04E800762030300000FA0
