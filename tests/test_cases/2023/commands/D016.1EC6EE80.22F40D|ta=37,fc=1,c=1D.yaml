@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     POLESTAR2_VSS: 0
   response: 1EC6EE800462F40D00
+- expected_values:
+    POLESTAR2_VSS: 6
+  response: 1EC6EE800462F40D06
+- expected_values:
+    POLESTAR2_VSS: 12
+  response: 1EC6EE800462F40D0C
+- expected_values:
+    POLESTAR2_VSS: 17
+  response: 1EC6EE800462F40D11
+- expected_values:
+    POLESTAR2_VSS: 54
+  response: 1EC6EE800462F40D36
+- expected_values:
+    POLESTAR2_VSS: 66
+  response: 1EC6EE800462F40D42
+- expected_values:
+    POLESTAR2_VSS: 68
+  response: 1EC6EE800462F40D44
+- expected_values:
+    POLESTAR2_VSS: 69
+  response: 1EC6EE800462F40D45

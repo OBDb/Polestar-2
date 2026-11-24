@@ -1,5 +1,26 @@
 command_id: D016.1EC6EE80.22985C|ta=37,fc=1,c=1D
 test_cases:
 - expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_V: 388.75
+  response: 1EC6EE800562985C0613
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_V: 389.5
+  response: 1EC6EE800562985C0616
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_V: 390
+  response: 1EC6EE800562985C0618
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_V: 391.75
+  response: 1EC6EE800562985C061F
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_V: 392.5
+  response: 1EC6EE800562985C0622
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_V: 393
+  response: 1EC6EE800562985C0624
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_V: 398.5
+  response: 1EC6EE800562985C063A
+- expected_values:
     POLESTAR2_HIGH_V_SYSTEM_V: 423
   response: 1EC6EE800562985C069C

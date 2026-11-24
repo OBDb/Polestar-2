@@ -1,0 +1,17 @@
+command_id: D01A.1F422E80.229850|ta=11,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HEAT_EXCHANGER_T: 24.3
+  response: 1F422E800662985000F300
+- expected_values:
+    POLESTAR2_HEAT_EXCHANGER_T: 25.1
+  response: 1F422E800662985000FB00
+- expected_values:
+    POLESTAR2_HEAT_EXCHANGER_T: 25.2
+  response: 1F422E800662985000FC00
+- expected_values:
+    POLESTAR2_HEAT_EXCHANGER_T: 25.3
+  response: 1F422E800662985000FD00
+- expected_values:
+    POLESTAR2_HEAT_EXCHANGER_T: 25.4
+  response: 1F422E800662985000FE00

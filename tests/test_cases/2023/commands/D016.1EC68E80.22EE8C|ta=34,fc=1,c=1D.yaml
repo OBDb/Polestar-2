@@ -1,0 +1,5 @@
+command_id: D016.1EC68E80.22EE8C|ta=34,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_CHG_SOCKET_LOCKED: 1
+  response: 1EC68E800462EE8C01

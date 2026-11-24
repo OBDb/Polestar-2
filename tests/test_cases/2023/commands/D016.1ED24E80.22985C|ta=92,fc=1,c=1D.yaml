@@ -1,0 +1,23 @@
+command_id: D016.1ED24E80.22985C|ta=92,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_V_D016: 388.75
+  response: 1ED24E800562985C0613
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_V_D016: 390.5
+  response: 1ED24E800562985C061A
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_V_D016: 390.75
+  response: 1ED24E800562985C061B
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_V_D016: 392
+  response: 1ED24E800562985C0620
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_V_D016: 392.5
+  response: 1ED24E800562985C0622
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_V_D016: 394.5
+  response: 1ED24E800562985C062A
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_V_D016: 396.75
+  response: 1ED24E800562985C0633

@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     POLESTAR2_HIGH_V_SYSTEM: 40
   response: 1EC6EE80056298610000
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM: 40.2
+  response: 1EC6EE80056298610002
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM: 40.8
+  response: 1EC6EE80056298610008
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM: 49.6
+  response: 1EC6EE80056298610060
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM: 65.5
+  response: 1EC6EE800562986100FF
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM: 77.4
+  response: 1EC6EE80056298610176
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM: 84.6
+  response: 1EC6EE800562986101BE
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM: -36.3
+  response: 1EC6EE8005629861FD05

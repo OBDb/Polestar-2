@@ -1,0 +1,26 @@
+command_id: D016.1EC6AE80.224857|ta=35,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HVBAT_CONTACTOR_V: 381.1
+  response: 1EC6AE80056248570EE3
+- expected_values:
+    POLESTAR2_HVBAT_CONTACTOR_V: 390.2
+  response: 1EC6AE80056248570F3E
+- expected_values:
+    POLESTAR2_HVBAT_CONTACTOR_V: 390.4
+  response: 1EC6AE80056248570F40
+- expected_values:
+    POLESTAR2_HVBAT_CONTACTOR_V: 392.4
+  response: 1EC6AE80056248570F54
+- expected_values:
+    POLESTAR2_HVBAT_CONTACTOR_V: 392.7
+  response: 1EC6AE80056248570F57
+- expected_values:
+    POLESTAR2_HVBAT_CONTACTOR_V: 392.8
+  response: 1EC6AE80056248570F58
+- expected_values:
+    POLESTAR2_HVBAT_CONTACTOR_V: 393.2
+  response: 1EC6AE80056248570F5C
+- expected_values:
+    POLESTAR2_HVBAT_CONTACTOR_V: 394.4
+  response: 1EC6AE80056248570F68
