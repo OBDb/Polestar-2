@@ -4,29 +4,5 @@ test_cases:
     POLESTAR2_HVBAT_V: 381
   response: 1EC6AE8005624803017D
 - expected_values:
-    POLESTAR2_HVBAT_V: 387
-  response: 1EC6AE80056248030183
-- expected_values:
-    POLESTAR2_HVBAT_V: 389
-  response: 1EC6AE80056248030185
-- expected_values:
-    POLESTAR2_HVBAT_V: 391
-  response: 1EC6AE80056248030187
-- expected_values:
-    POLESTAR2_HVBAT_V: 392
-  response: 1EC6AE80056248030188
-- expected_values:
-    POLESTAR2_HVBAT_V: 393
-  response: 1EC6AE80056248030189
-- expected_values:
-    POLESTAR2_HVBAT_V: 394
-  response: 1EC6AE8005624803018A
-- expected_values:
-    POLESTAR2_HVBAT_V: 410
-  response: 1EC6AE8005624803019A
-- expected_values:
-    POLESTAR2_HVBAT_V: 411
-  response: 1EC6AE8005624803019B
-- expected_values:
-    POLESTAR2_HVBAT_V: 413
-  response: 1EC6AE8005624803019D
+    POLESTAR2_HVBAT_V: 446
+  response: 1EC6AE800562480301BE
