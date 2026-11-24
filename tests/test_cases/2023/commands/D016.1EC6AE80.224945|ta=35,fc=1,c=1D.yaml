@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     POLESTAR2_HVBAT_MAX_T: -49.32
   response: 1EC6AE8006624945030044
+- expected_values:
+    POLESTAR2_HVBAT_MAX_T: -49.31
+  response: 1EC6AE8006624945030045

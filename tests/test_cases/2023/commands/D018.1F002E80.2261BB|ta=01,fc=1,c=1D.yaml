@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     POLESTAR2_ODO: 173782
   response: 1F002E80066261BB02A6D6
+- expected_values:
+    POLESTAR2_ODO: 173802
+  response: 1F002E80066261BB02A6EA
+- expected_values:
+    POLESTAR2_ODO: 173803
+  response: 1F002E80066261BB02A6EB

@@ -21,3 +21,12 @@ test_cases:
 - expected_values:
     POLESTAR2_HVBAT_V: 394
   response: 1EC6AE8005624803018A
+- expected_values:
+    POLESTAR2_HVBAT_V: 410
+  response: 1EC6AE8005624803019A
+- expected_values:
+    POLESTAR2_HVBAT_V: 411
+  response: 1EC6AE8005624803019B
+- expected_values:
+    POLESTAR2_HVBAT_V: 413
+  response: 1EC6AE8005624803019D

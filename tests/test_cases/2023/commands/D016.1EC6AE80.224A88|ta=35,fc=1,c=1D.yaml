@@ -4,6 +4,9 @@ test_cases:
     POLESTAR2_ACT_POWER: 1
   response: 1EC6AE8005624A880001
 - expected_values:
+    POLESTAR2_ACT_POWER: 8
+  response: 1EC6AE8005624A880008
+- expected_values:
     POLESTAR2_ACT_POWER: 12
   response: 1EC6AE8005624A88000C
 - expected_values:
@@ -13,6 +16,9 @@ test_cases:
     POLESTAR2_ACT_POWER: 33
   response: 1EC6AE8005624A880021
 - expected_values:
+    POLESTAR2_ACT_POWER: 47
+  response: 1EC6AE8005624A88002F
+- expected_values:
     POLESTAR2_ACT_POWER: 89
   response: 1EC6AE8005624A880059
 - expected_values:
@@ -21,3 +27,6 @@ test_cases:
 - expected_values:
     POLESTAR2_ACT_POWER: -3
   response: 1EC6AE8005624A88FFFD
+- expected_values:
+    POLESTAR2_ACT_POWER: -2
+  response: 1EC6AE8005624A88FFFE

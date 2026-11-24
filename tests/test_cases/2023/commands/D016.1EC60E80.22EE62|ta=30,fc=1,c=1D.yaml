@@ -4,6 +4,9 @@ test_cases:
     POLESTAR2_RADIATOR_COOLING_FAN_1: 6.99
   response: 1EC60E800562EE6202BB
 - expected_values:
+    POLESTAR2_RADIATOR_COOLING_FAN_1: 9.99
+  response: 1EC60E800562EE6203E7
+- expected_values:
     POLESTAR2_RADIATOR_COOLING_FAN_1: 16.99
   response: 1EC60E800562EE6206A3
 - expected_values:

@@ -15,3 +15,15 @@ test_cases:
 - expected_values:
     POLESTAR2_HVBAT_CLT_OUTLET_T: 27.1
   response: 1EC6AE8005624990010F
+- expected_values:
+    POLESTAR2_HVBAT_CLT_OUTLET_T: 27.2
+  response: 1EC6AE80056249900110
+- expected_values:
+    POLESTAR2_HVBAT_CLT_OUTLET_T: 27.3
+  response: 1EC6AE80056249900111
+- expected_values:
+    POLESTAR2_HVBAT_CLT_OUTLET_T: 27.5
+  response: 1EC6AE80056249900113
+- expected_values:
+    POLESTAR2_HVBAT_CLT_OUTLET_T: 27.6
+  response: 1EC6AE80056249900114
