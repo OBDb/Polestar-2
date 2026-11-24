@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     POLESTAR2_BAT_V: 13.525
   response: 1F402E80056240CD0155
+- expected_values:
+    POLESTAR2_BAT_V: 13.55
+  response: 1F402E80056240CD0156

@@ -1,0 +1,23 @@
+command_id: D016.1EC6AE80.224859|ta=35,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HVBAT_V_IEM_FUSE: 383.1
+  response: 1EC6AE80056248590EF7
+- expected_values:
+    POLESTAR2_HVBAT_V_IEM_FUSE: 389.4
+  response: 1EC6AE80056248590F36
+- expected_values:
+    POLESTAR2_HVBAT_V_IEM_FUSE: 392.8
+  response: 1EC6AE80056248590F58
+- expected_values:
+    POLESTAR2_HVBAT_V_IEM_FUSE: 394.1
+  response: 1EC6AE80056248590F65
+- expected_values:
+    POLESTAR2_HVBAT_V_IEM_FUSE: 395
+  response: 1EC6AE80056248590F6E
+- expected_values:
+    POLESTAR2_HVBAT_V_IEM_FUSE: 395.3
+  response: 1EC6AE80056248590F71
+- expected_values:
+    POLESTAR2_HVBAT_V_IEM_FUSE: 396.3
+  response: 1EC6AE80056248590F7B

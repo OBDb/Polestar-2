@@ -1,0 +1,23 @@
+command_id: D016.1EC6AE80.224803|ta=35,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HVBAT_V: 381
+  response: 1EC6AE8005624803017D
+- expected_values:
+    POLESTAR2_HVBAT_V: 387
+  response: 1EC6AE80056248030183
+- expected_values:
+    POLESTAR2_HVBAT_V: 389
+  response: 1EC6AE80056248030185
+- expected_values:
+    POLESTAR2_HVBAT_V: 391
+  response: 1EC6AE80056248030187
+- expected_values:
+    POLESTAR2_HVBAT_V: 392
+  response: 1EC6AE80056248030188
+- expected_values:
+    POLESTAR2_HVBAT_V: 393
+  response: 1EC6AE80056248030189
+- expected_values:
+    POLESTAR2_HVBAT_V: 394
+  response: 1EC6AE8005624803018A

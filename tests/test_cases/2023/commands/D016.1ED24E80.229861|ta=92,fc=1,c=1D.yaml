@@ -3,3 +3,15 @@ test_cases:
 - expected_values:
     POLESTAR2_HIGH_V_SYSTEM_CURRENT: 40
   response: 1ED24E80056298610000
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_CURRENT: 41
+  response: 1ED24E8005629861000A
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_CURRENT: -3.5
+  response: 1ED24E8005629861FE4D
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_CURRENT: 2.2
+  response: 1ED24E8005629861FE86
+- expected_values:
+    POLESTAR2_HIGH_V_SYSTEM_CURRENT: 39.2
+  response: 1ED24E8005629861FFF8

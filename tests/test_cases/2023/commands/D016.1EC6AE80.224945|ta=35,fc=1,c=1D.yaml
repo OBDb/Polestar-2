@@ -1,0 +1,11 @@
+command_id: D016.1EC6AE80.224945|ta=35,fc=1,c=1D
+test_cases:
+- expected_values:
+    POLESTAR2_HVBAT_MAX_T: -49.33
+  response: 1EC6AE8006624945020043
+- expected_values:
+    POLESTAR2_HVBAT_MAX_T: -49.33
+  response: 1EC6AE8006624945030043
+- expected_values:
+    POLESTAR2_HVBAT_MAX_T: -49.32
+  response: 1EC6AE8006624945030044

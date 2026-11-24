@@ -3,3 +3,12 @@ test_cases:
 - expected_values:
     POLESTAR2_TOT_DIST: 173669
   response: 1EC6EE800662DD0102A665
+- expected_values:
+    POLESTAR2_TOT_DIST: 173780
+  response: 1EC6EE800662DD0102A6D4
+- expected_values:
+    POLESTAR2_TOT_DIST: 173781
+  response: 1EC6EE800662DD0102A6D5
+- expected_values:
+    POLESTAR2_TOT_DIST: 173782
+  response: 1EC6EE800662DD0102A6D6
