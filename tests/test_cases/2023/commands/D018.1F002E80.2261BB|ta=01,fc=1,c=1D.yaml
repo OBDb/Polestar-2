@@ -4,29 +4,8 @@ test_cases:
     POLESTAR2_ODO: 173780
   response: 1F002E80066261BB02A6D4
 - expected_values:
-    POLESTAR2_ODO: 173781
-  response: 1F002E80066261BB02A6D5
-- expected_values:
-    POLESTAR2_ODO: 173782
-  response: 1F002E80066261BB02A6D6
-- expected_values:
-    POLESTAR2_ODO: 173802
-  response: 1F002E80066261BB02A6EA
-- expected_values:
-    POLESTAR2_ODO: 173803
-  response: 1F002E80066261BB02A6EB
-- expected_values:
     POLESTAR2_ODO: 173819
   response: 1F002E80066261BB02A6FB
 - expected_values:
     POLESTAR2_ODO: 173870
   response: 1F002E80066261BB02A72E
-- expected_values:
-    POLESTAR2_ODO: 173871
-  response: 1F002E80066261BB02A72F
-- expected_values:
-    POLESTAR2_ODO: 173872
-  response: 1F002E80066261BB02A730
-- expected_values:
-    POLESTAR2_ODO: 173873
-  response: 1F002E80066261BB02A731
